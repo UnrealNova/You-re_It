@@ -1,0 +1,92 @@
+# ------------------------------
+# Unreal Engine Standard Ignores
+# ------------------------------
+
+# Unreal / VS junk we don't want in git
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+
+# Project user-specific settings
+*.suo
+*.sdf
+*.sln.docstates
+.vscode/
+.vs/
+
+# Backup files
+*_Backup.*
+*_Copy.*
+*_OLD.*
+*.tmp
+*.temp
+
+# Cache and autosaves
+*.local
+*.log
+*.log.*
+*.vspscc
+*.cache/
+*.generated/
+*.Obj/
+
+# Compiled files
+*.exe
+*.dll
+*.lib
+*.app
+*.ipa
+*.dylib
+
+# Dotnet things sometimes created by Rider or VS
+*.user
+*.userprefs
+*.DS_Store
+
+# Unreal File Types to Ignore
+*.pdb
+*.ipdb
+*.iobj
+*.opensdf
+*.opendb
+*.VC.db
+
+# Ignore config backups
+Config/DefaultEditorSettings.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Ignore autosaved maps
+Content/Autosaves/
+
+# Ignore crash context
+CrashReportClient/
+
+# Ignore rendered movies
+Saved/VideoCaptures/
+Saved/Screenshots/
+
+# Node modules (in case any tool installs them)
+node_modules/
+
+# Python virtual env
+venv/
+
+# Git LFS: If you're using LFS for large assets (recommended)
+# Uncomment these lines if you use LFS:
+# *.uasset filter=lfs diff=lfs merge=lfs -text
+# *.umap filter=lfs diff=lfs merge=lfs -text
+
+# Optional: Ignore built editor binaries
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+
+# Rider / Jetbrains
+.idea/
+
+# ------------------------------
+# End of Unreal Engine .gitignore
+# ------------------------------
